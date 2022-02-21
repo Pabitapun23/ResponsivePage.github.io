@@ -49,32 +49,6 @@ main{
   line-height: 100px;
 }
 
-.btn{
-  background-color: transparent;
-  border: 3px solid #ffffff;
-  padding: 15px 35px;
-  font-weight: bolder;
-  text-decoration: none;
-  color: #ffffff;
-  margin-right: 15px;
-  transition: all 400ms ease-in-out;
-}
-
-.btn-fill{
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.btn-fill:hover{
-  background-color: #f1c11a;
-  border-color: transparent;
-}
-
-.btn-trans:hover{
-  background-color: #f1c11a;
-  color: #000000;
-  border-color: transparent;
-}
 
 .intro{
   background-color: #ffffff;
@@ -97,61 +71,24 @@ main{
   line-height: 30px;
 }
 
-.services{
-  background-color: #f1c11a;
-  height: 70vh;
-  clip-path: polygon(0 0, 15% 0, 50% 20%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  margin-top: -15vh;
-}
-
-.service-content{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.bucket{
-  width: 25%;
-  margin: 130px 3%;
-  color: #ffffff;
-}
-
-.bucket p{
-  color: #000000;
-  text-align: justify;
-  line-height: 25px;
-}
-
-.contact{
-  background-color: #ffffff;
-  padding: 10vh 0;
-  text-align: center;
-}
-
-input[type='text'], input[type=email], textarea{
-  width: 100%;
-  padding: 12px;
-  border-color: 1px solid #cccccc;
-}
-
 .contact-section div{
   padding: 10px 3%;
 }
 
-.btn-submit{
-  background-color: #000000;
-  color: #ffffff;
-}
 
-.btn-submit:hover{
-  background-color: #f1c11a;
-  border-color: transparent;
-  color: #000000;
+ul li {
+  margin: 2px;
+  padding-left: 5px;
+  font-family: Arial,;
+  text-align: justify;
+  color: #828282;
+  line-height: 15px;
 }
 
 footer{
   background-color: #f1c11a;
   clip-path: polygon(0 0, 15% 0, 50% 20%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  margin-top: -10vh;
+  margin-top: -5vh;
   text-align: center;
   padding-top: 15vh;
   padding-bottom: 30px;
@@ -171,21 +108,6 @@ footer{
     width: 100%;
   }
 
-  .services{
-    height: 100vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -15vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 80px 3%;
-  }
 }
 
 @media screen and (max-width: 425px){     /*mobile L*/
@@ -197,10 +119,6 @@ footer{
     font-size: 10px;
   }
 
-  .btn{
-    padding: 10px 15px;
-  }
-
   .intro-content{
     display: block;
     height: 110vh;
@@ -210,21 +128,6 @@ footer{
     width: 100%;
   }
 
-  .services{
-    height: 150vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -5vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 40px 3%;
-  }
 }
 
 @media screen and (max-width: 375px){     /*mobile M*/
@@ -236,10 +139,6 @@ footer{
     font-size: 10px;
   }
 
-  .btn{
-    padding: 10px 15px;
-  }
-
   .intro-content{
     display: block;
     height: 120vh;
@@ -247,22 +146,6 @@ footer{
 
   .intro-content div{
     width: 100%;
-  }
-
-  .services{
-    height: 160vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -5vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 40px 3%;
   }
 }
 
@@ -275,10 +158,6 @@ footer{
     font-size: 8px;
   }
 
-  .btn{
-    padding: 10px 5px;
-  }
-
   .intro-content{
     display: block;
     height: 120vh;
@@ -286,22 +165,6 @@ footer{
 
   .intro-content div{
     width: 100%;
-  }
-
-  .services{
-    height: 185vh;
-    clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  }
-
-  .service-content{
-    display: block;
-    margin-top: -5vh;
-    padding-top: 1px;
-  }
-
-  .bucket{
-    width: 100%;
-    margin: 45px 3%;
   }
 }
 
